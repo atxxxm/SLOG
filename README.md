@@ -1,4 +1,4 @@
-# SLOG Logger Class Documentation
+# SLOG - Simple Logger Class Documentation
 
 ## Overview
 `SLOG` is a lightweight C++ utility for logging messages with various severity levels (DEBUG, INFO, WARNING, ERROR, FATAL).
@@ -152,7 +152,7 @@ Each logging level has two variants: `_NE` (for C-style strings with variable ar
 
 ### Example 1: Logging to Console
 ```cpp
-#include "logger.hpp"
+#include "slog.hpp"
 
 int main() {
     LOG log;
@@ -175,7 +175,7 @@ int main() {
 
 ### Example 2: Logging to File
 ```cpp
-#include "logger.hpp"
+#include "slog.hpp"
 
 int main() {
     LOG log;
